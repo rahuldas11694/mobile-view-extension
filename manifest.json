@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "mobile view",
+  "version": "0.1",
+  "description": "This extension converts your current webpage into mobile view",
+
+  "browser_action": {
+	    "default_popup": "popup.html",
+	    "default_title": "open in mobile view"
+   },
+
+  "permissions": [
+  		"tabs"
+  ]
+
+}
