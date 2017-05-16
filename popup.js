@@ -59,7 +59,7 @@ function change1() {
 
         var url = tabs[0].url;
 
-        window.open(url, "smallwindowi4", "location=1,toolbar=1,menubar=1,resizable=no,width=320,height=480,scrollbars=1,left=350,top=200");
+        window.open(url, "smallwindowi4", "location=1,toolbar=yes,menubar=yes,resizable=yes,width=320,height=480,scrollbars=yes,left=350,top=200");
         return false;
     });
 }
@@ -111,7 +111,7 @@ function change5() {
 
 		var url = tabs[0].url;
 
-		window.open(url, "smallwindowi6", "location=1,toolbar=1,menubar=1,resizable=1,width=414,height=736,scrollbars=1");
+		window.open(url, "smallwindowi6", "location=1,toolbar=yes,menubar=1,resizable=1,width=414,height=736,scrollbars=1");
 
         return false;
 
